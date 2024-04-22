@@ -104,6 +104,8 @@ $string['cltimemonths'] = 'months';
 $string['cltimemin'] = 'in';
 $string['clpendingduplication'] = 'Pending Duplication';
 $string['clfailedduplication'] = 'Duplication Failed';
+$string['copyleaks:viewfullreport'] = 'View full report';
+$string['copyleaks:enable'] = 'Enable';
 
 $string['privacy:metadata:core_files'] = 'Copyleaks stores files that have been uploaded to Moodle to form a Copyleaks submission.';
 $string['privacy:metadata:plagiarism_copyleaks_files'] = 'Information that links a Moodle submission to a Copyleaks submission.';
@@ -120,3 +122,5 @@ $string['privacy:metadata:plagiarism_copyleaks_client:submittion_userId'] = 'The
 $string['privacy:metadata:plagiarism_copyleaks_client:submittion_name'] = 'The submission name is sent to Copyleaks for identification purposes.';
 $string['privacy:metadata:plagiarism_copyleaks_client:submittion_type'] = 'The submission type is sent to Copyleaks for identification purposes.';
 $string['privacy:metadata:plagiarism_copyleaks_client:submittion_content'] = 'The submission content is sent to Copyleaks for scan processing.';
+$string['privacy:metadata:plagiarism_copyleaks_users:userid'] = 'The ID of the user who is the owner of the submission.';
+$string['privacy:metadata:plagiarism_copyleaks_users'] = 'Stores id of the user';

@@ -84,6 +84,13 @@ class provider implements
             'submittion_type' => 'privacy:metadata:plagiarism_copyleaks_client:submittion_type',
         ], 'privacy:metadata:plagiarism_copyleaks_client');
 
+        $collection->add_database_table(
+            'plagiarism_copyleaks_users',
+                [
+                    'userid' => 'privacy:metadata:plagiarism_copyleaks_users:userid',
+                ],
+                'privacy:metadata:plagiarism_copyleaks_users'
+        );
         return $collection;
     }
 
